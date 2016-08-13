@@ -1,0 +1,15 @@
+{
+  "name": "framework-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/bleepbloopsify/frontend"
+  },
+  "author": "",
+  "license": "ISC"
+}
