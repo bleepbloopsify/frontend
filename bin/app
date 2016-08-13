@@ -17,7 +17,6 @@ module.exports.listen = function(file, port){
     console.log(err);
     console.log('Should probably require the right filename');
   }
-};
 
 /** Event listener for HTTP server "error" event. */
 function onError( error ) {
@@ -49,3 +48,5 @@ function onListening() {
     'port ' + addr.port;
   debug( 'Listening on ' + bind );
 }
+
+};
