@@ -2,7 +2,7 @@
   "name": "framework-frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./bin/start",
   "scripts": {
     "test": "mocha",
     "start": "nodejs ./bin/start"
@@ -12,5 +12,14 @@
     "url": "github.com/bleepbloopsify/frontend"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-mongo": "^1.3.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "mongoose": "^4.5.9",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
 }

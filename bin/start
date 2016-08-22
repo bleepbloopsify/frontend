@@ -8,4 +8,4 @@ try{
 }
 
 var app = require('./app');
-app.listen('../index', process.env.PORT || 3001);
+app.listen('../app', process.env.PORT || 3001);
